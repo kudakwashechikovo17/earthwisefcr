@@ -1,13 +1,19 @@
 # Earthwise AI Poultry Production and Feed Efficiency Advisor
 
-### 📌 Submission Overview & Key Links
-- 🔗 **GitHub Repository**: [https://github.com/kudakwashechikovo17/earthwisefcr](https://github.com/kudakwashechikovo17/earthwisefcr)
-  - 📊 **Dataset File**: [poultry_data.csv](https://github.com/kudakwashechikovo17/earthwisefcr/blob/main/summative/linear_regression/data/poultry_data.csv)
-  - 📓 **Jupyter Notebook**: [multivariate.ipynb](https://github.com/kudakwashechikovo17/earthwisefcr/blob/main/summative/linear_regression/multivariate.ipynb)
-  - ⚡ **API Code Files**: [summative/API](https://github.com/kudakwashechikovo17/earthwisefcr/tree/main/summative/API)
-  - 📱 **Flutter App Files**: [summative/FlutterApp](https://github.com/kudakwashechikovo17/earthwisefcr/tree/main/summative/FlutterApp)
-- 🌐 **Public API (Swagger UI)**: [https://earthwise-fcr-api.onrender.com/docs](https://earthwise-fcr-api.onrender.com/docs)
-- 🎥 **YouTube Video Demo**: [https://youtu.be/RR8yBmOyYdw?si=RmzA__NRK3IzpgPD](https://youtu.be/RR8yBmOyYdw?si=RmzA__NRK3IzpgPD)
+###  Submission Overview & Key Links
+   **GitHub Repository**: [https://github.com/kudakwashechikovo17/earthwisefcr](https://github.com/kudakwashechikovo17/earthwisefcr)
+   
+   **Dataset File**: [poultry_data.csv](https://github.com/kudakwashechikovo17/earthwisefcr/blob/main/summative/linear_regression/data/poultry_data.csv)
+   
+   **Jupyter Notebook**: [multivariate.ipynb](https://github.com/kudakwashechikovo17/earthwisefcr/blob/main/summative/linear_regression/multivariate.ipynb)
+   
+   **API Code Files**: [summative/API](https://github.com/kudakwashechikovo17/earthwisefcr/tree/main/summative/API)
+   
+   **Flutter App Files**: [summative/FlutterApp](https://github.com/kudakwashechikovo17/earthwisefcr/tree/main/summative/FlutterApp)
+   
+   **Public API (Swagger UI)**: [https://earthwise-fcr-api.onrender.com/docs](https://earthwise-fcr-api.onrender.com/docs)
+-  
+   **YouTube Video Demo**: [https://youtu.be/RR8yBmOyYdw?si=RmzA__NRK3IzpgPD](https://youtu.be/RR8yBmOyYdw?si=RmzA__NRK3IzpgPD)
 
 ---
 
