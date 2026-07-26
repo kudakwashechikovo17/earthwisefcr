@@ -12,8 +12,13 @@ import '../models/prediction_response.dart';
 /// - Physical device on same network: http://<your-ip>:8000
 /// - Deployed Render URL: https://your-app.onrender.com
 class PredictionService {
-  /// Dynamic base URL selection based on platform
+  /// Dynamic base URL selection based on platform and production availability
   static String get baseUrl {
+    // Check if production environment flag is set or fallback gracefully
+    const bool isProduction = bool.fromEnvironment('dart.vm.product');
+    if (isProduction) {
+      return 'https://earthwise-fcr-api.onrender.com';
+    }
     // If running on web or non-Android platform (Windows, macOS, Linux), use localhost
     if (kIsWeb || !Platform.isAndroid) {
       return 'http://127.0.0.1:8000';
