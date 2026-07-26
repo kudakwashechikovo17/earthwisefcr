@@ -1,17 +1,13 @@
 # Earthwise AI Poultry Production and Feed Efficiency Advisor
 
-##  Submission Overview & Key Links
--  **GitHub Repository**: [https://github.com/kudakwashechikovo17/earthwisefcr](https://github.com/kudakwashechikovo17/earthwisefcr)
--  
-   **Jupyter Notebook**: [multivariate.ipynb](https://github.com/kudakwashechikovo17/earthwisefcr/blob/main/summative/linear_regression/multivariate.ipynb)
-   
-   **API Code Files**: [summative/API](https://github.com/kudakwashechikovo17/earthwisefcr/tree/main/summative/API)
-   
-   **Flutter App Files**: [summative/FlutterApp](https://github.com/kudakwashechikovo17/earthwisefcr/tree/main/summative/FlutterApp)
-   
--  **Public API (Swagger UI)**: [https://earthwise-fcr-api.onrender.com/docs](https://earthwise-fcr-api.onrender.com/docs)
--  
--  **YouTube Video Demo**: [https://youtu.be/RR8yBmOyYdw?si=RmzA__NRK3IzpgPD](https://youtu.be/RR8yBmOyYdw?si=RmzA__NRK3IzpgPD)
+### 📌 Submission Overview & Key Links
+- 🔗 **GitHub Repository**: [https://github.com/kudakwashechikovo17/earthwisefcr](https://github.com/kudakwashechikovo17/earthwisefcr)
+  - 📊 **Dataset File**: [poultry_data.csv](https://github.com/kudakwashechikovo17/earthwisefcr/blob/main/summative/linear_regression/data/poultry_data.csv)
+  - 📓 **Jupyter Notebook**: [multivariate.ipynb](https://github.com/kudakwashechikovo17/earthwisefcr/blob/main/summative/linear_regression/multivariate.ipynb)
+  - ⚡ **API Code Files**: [summative/API](https://github.com/kudakwashechikovo17/earthwisefcr/tree/main/summative/API)
+  - 📱 **Flutter App Files**: [summative/FlutterApp](https://github.com/kudakwashechikovo17/earthwisefcr/tree/main/summative/FlutterApp)
+- 🌐 **Public API (Swagger UI)**: [https://earthwise-fcr-api.onrender.com/docs](https://earthwise-fcr-api.onrender.com/docs)
+- 🎥 **YouTube Video Demo**: [https://youtu.be/RR8yBmOyYdw?si=RmzA__NRK3IzpgPD](https://youtu.be/RR8yBmOyYdw?si=RmzA__NRK3IzpgPD)
 
 ---
 
@@ -21,12 +17,12 @@
 ---
 
 ## 2. Mission Statement and Problem Description
-l developed earthwise to be able to to strengthen poultry value chains by helping smallholder farmers and cold-chain operators make better production decisions. The m ain goal for this  project predicts broiler feed efficiency (Feed Conversion Ratio - FCR) and converts the prediction into practical insights for profitability, farmer assessment, meat-yield planning, cold-storage allocation and refrigerated distribution.
+Earthwise aims to strengthen poultry value chains by helping smallholder farmers and cold-chain operators make better production decisions. This project predicts broiler feed efficiency (Feed Conversion Ratio - FCR) and converts the prediction into practical insights for profitability, farmer assessment, meat-yield planning, cold-storage allocation and refrigerated distribution.
 
 ---
 
 ## 3. Dataset Description
-The model is trained on commercial broiler performance data (`poultry_data.csv`). Original headers in Indonesian were translated to clear English snake_case:
+The model is trained on commercial broiler performance data stored in the repository at [`summative/linear_regression/data/poultry_data.csv`](https://github.com/kudakwashechikovo17/earthwisefcr/blob/main/summative/linear_regression/data/poultry_data.csv). Original headers in Indonesian were translated to clear English snake_case:
 - `age_days` (from `Umur`): Slaughter/harvest age in days (range: 24.0 – 29.4 days)
 - `body_weight_kg` (from `BW`): Average live body weight at harvest in kg (range: 0.85 – 1.51 kg)
 - `harvest_percent` (from `%Panen`): Percentage of placed birds harvested (range: 5.74% – 79.77%)
@@ -35,6 +31,7 @@ The model is trained on commercial broiler performance data (`poultry_data.csv`)
 ---
 
 ## 4. Dataset Source and Citation
+- **Repository Location**: [`summative/linear_regression/data/poultry_data.csv`](https://github.com/kudakwashechikovo17/earthwisefcr/blob/main/summative/linear_regression/data/poultry_data.csv)
 - **Source**: Indonesian Commercial Broiler Flock Performance Dataset (`PS Performance.csv`).
 - **Citation**: Broiler Industry Field Performance Records (Public Benchmark Data).
 
