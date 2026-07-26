@@ -1,19 +1,17 @@
 # Earthwise AI Poultry Production and Feed Efficiency Advisor
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.104%2B-green.svg)](https://fastapi.tiangolo.com/)
-[![Flutter](https://img.shields.io/badge/Flutter-3.0%2B-02569B.svg)](https://flutter.dev/)
-[![uv](https://img.shields.io/badge/uv-package_manager-purple.svg)](https://github.com/astral-sh/uv)
-
----
-
-## 📌 Submission Overview & Key Links
-- 🔗 **GitHub Repository**: [https://github.com/kudakwashechikovo17/earthwisefcr](https://github.com/kudakwashechikovo17/earthwisefcr)
-  - 📓 **Jupyter Notebook**: [multivariate.ipynb](https://github.com/kudakwashechikovo17/earthwisefcr/blob/main/summative/linear_regression/multivariate.ipynb)
-  - ⚡ **API Code Files**: [summative/API](https://github.com/kudakwashechikovo17/earthwisefcr/tree/main/summative/API)
-  - 📱 **Flutter App Files**: [summative/FlutterApp](https://github.com/kudakwashechikovo17/earthwisefcr/tree/main/summative/FlutterApp)
-- 🌐 **Public API (Swagger UI)**: [https://earthwise-fcr-api.onrender.com/docs](https://earthwise-fcr-api.onrender.com/docs)
-- 🎥 **YouTube Video Demo**: [https://youtu.be/RR8yBmOyYdw?si=RmzA__NRK3IzpgPD](https://youtu.be/RR8yBmOyYdw?si=RmzA__NRK3IzpgPD)
+##  Submission Overview & Key Links
+-  **GitHub Repository**: [https://github.com/kudakwashechikovo17/earthwisefcr](https://github.com/kudakwashechikovo17/earthwisefcr)
+-  
+   **Jupyter Notebook**: [multivariate.ipynb](https://github.com/kudakwashechikovo17/earthwisefcr/blob/main/summative/linear_regression/multivariate.ipynb)
+   
+   **API Code Files**: [summative/API](https://github.com/kudakwashechikovo17/earthwisefcr/tree/main/summative/API)
+   
+   **Flutter App Files**: [summative/FlutterApp](https://github.com/kudakwashechikovo17/earthwisefcr/tree/main/summative/FlutterApp)
+   
+-  **Public API (Swagger UI)**: [https://earthwise-fcr-api.onrender.com/docs](https://earthwise-fcr-api.onrender.com/docs)
+-  
+-  **YouTube Video Demo**: [https://youtu.be/RR8yBmOyYdw?si=RmzA__NRK3IzpgPD](https://youtu.be/RR8yBmOyYdw?si=RmzA__NRK3IzpgPD)
 
 ---
 
@@ -23,7 +21,7 @@
 ---
 
 ## 2. Mission Statement and Problem Description
-Earthwise aims to strengthen poultry value chains by helping smallholder farmers and cold-chain operators make better production decisions. This project predicts broiler feed efficiency (Feed Conversion Ratio - FCR) and converts the prediction into practical insights for profitability, farmer assessment, meat-yield planning, cold-storage allocation and refrigerated distribution.
+l developed earthwise to be able to to strengthen poultry value chains by helping smallholder farmers and cold-chain operators make better production decisions. The m ain goal for this  project predicts broiler feed efficiency (Feed Conversion Ratio - FCR) and converts the prediction into practical insights for profitability, farmer assessment, meat-yield planning, cold-storage allocation and refrigerated distribution.
 
 ---
 
