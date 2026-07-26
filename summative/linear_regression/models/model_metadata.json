@@ -1,6 +1,6 @@
 {
-  "model_name": "SGD Regressor",
-  "model_version": "1.0.0",
+  "model_name": "Linear Regression",
+  "model_version": "2.0.0-retrained-20260726_172650",
   "target": "fcr",
   "features": [
     "age_days",
@@ -24,83 +24,42 @@
     "harvest_efficiency",
     "mortality_weight_interaction"
   ],
-  "training_date": "2026-07-26T09:23:12.643668",
-  "training_samples": 233,
-  "test_samples": 59,
+  "training_date": "2026-07-26T17:26:50.730908",
+  "training_samples": 12,
+  "test_samples": 3,
+  "total_data_rows": 15,
   "metrics": {
-    "test_rmse": 0.0806,
-    "test_mae": 0.063,
-    "test_mse": 0.006494,
-    "test_r2": 0.4028,
-    "cv_rmse": 0.1118,
-    "train_rmse": 0.1041
-  },
-  "feature_ranges": {
-    "age_days": {
-      "min": 24.0,
-      "max": 29.4,
-      "mean": 27.1158
-    },
-    "body_weight_kg": {
-      "min": 0.85,
-      "max": 1.51,
-      "mean": 1.236
-    },
-    "harvest_percent": {
-      "min": 5.74,
-      "max": 79.77,
-      "mean": 38.6197
-    },
-    "mortality_percent": {
-      "min": 1.59,
-      "max": 15.49,
-      "mean": 3.6433
-    },
-    "survival_rate": {
-      "min": 84.51,
-      "max": 98.41,
-      "mean": 96.3567
-    },
-    "weight_gain_per_day": {
-      "min": 0.0321,
-      "max": 0.0558,
-      "mean": 0.0456
-    },
-    "harvest_efficiency": {
-      "min": 0.205,
-      "max": 2.8287,
-      "mean": 1.4231
-    },
-    "mortality_weight_interaction": {
-      "min": 2.1147,
-      "max": 16.1096,
-      "mean": 4.4235
-    }
+    "test_rmse": 0.0,
+    "test_mae": 0.0,
+    "test_mse": 0.0,
+    "test_r2": 1.0,
+    "cv_rmse": 0.0,
+    "train_rmse": 0.0
   },
   "all_model_results": {
     "Linear Regression": {
-      "test_rmse": 0.0817,
-      "test_mae": 0.0634,
-      "test_r2": 0.3866,
-      "cv_rmse": 0.1126
+      "test_rmse": 0.0,
+      "test_mae": 0.0,
+      "test_r2": 1.0,
+      "cv_rmse": 0.0
     },
     "SGD Regressor": {
-      "test_rmse": 0.0806,
-      "test_mae": 0.063,
-      "test_r2": 0.4028,
-      "cv_rmse": 0.1118
+      "test_rmse": 0.0606,
+      "test_mae": 0.0603,
+      "test_r2": -20.7371,
+      "cv_rmse": 0.0814
     },
     "Decision Tree": {
-      "test_rmse": 0.0995,
-      "test_mae": 0.0765,
-      "test_r2": 0.089,
-      "cv_rmse": 0.1136
+      "test_rmse": 0.0031,
+      "test_mae": 0.002,
+      "test_r2": 0.9438,
+      "cv_rmse": 0.0029
     },
     "Random Forest": {
-      "test_rmse": 0.0856,
-      "test_mae": 0.0633,
-      "test_r2": 0.3258,
-      "cv_rmse": 0.1077
+      "test_rmse": 0.0044,
+      "test_mae": 0.0028,
+      "test_r2": 0.8827,
+      "cv_rmse": 0.0023
     }
   }
 }

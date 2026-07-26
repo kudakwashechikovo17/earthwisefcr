@@ -47,3 +47,5 @@ summative/FlutterApp/.flutter-plugins-dependencies
 
 # Inspection script (dev only)
 inspect_dataset.py
+execute_notebook.py
+summative/linear_regression/models/backup/

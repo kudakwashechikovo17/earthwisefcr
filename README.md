@@ -176,7 +176,8 @@ uvicorn prediction:app --reload --host 0.0.0.0 --port 8000
 ---
 
 ## 17. Public Swagger URL
-- **Public API Documentation**: [https://earthwise-fcr-api.onrender.com/docs](https://earthwise-fcr-api.onrender.com/docs) *(Replace with active Render service URL)*
+- **Public API Documentation**: [https://earthwise-fcr-api.onrender.com/docs](https://earthwise-fcr-api.onrender.com/docs)
+- **Public Predict Endpoint**: `https://earthwise-fcr-api.onrender.com/predict`
 
 ---
 
@@ -279,5 +280,5 @@ curl -X 'POST' \
 
 ---
 
-## 25. YouTube Demo Link Placeholder
-- **YouTube Video Demo**: [https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://www.youtube.com/watch?v=YOUR_VIDEO_ID) *(Replace with uploaded YouTube link)*
+## 25. YouTube Demo Link
+- **YouTube Video Demo**: [https://youtu.be/RR8yBmOyYdw?si=RmzA__NRK3IzpgPD](https://youtu.be/RR8yBmOyYdw?si=RmzA__NRK3IzpgPD)

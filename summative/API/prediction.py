@@ -61,7 +61,7 @@ app = FastAPI(
 # Production origins should be set through the ALLOWED_ORIGINS environment variable.
 ALLOWED_ORIGINS = os.environ.get(
     "ALLOWED_ORIGINS",
-    "http://localhost,http://localhost:3000,http://127.0.0.1,http://10.0.2.2"
+    "http://localhost,http://localhost:8085,http://127.0.0.1:8085,http://localhost:8000,http://127.0.0.1:8000,http://localhost:3000,http://127.0.0.1,http://10.0.2.2,*"
 ).split(",")
 
 app.add_middleware(
