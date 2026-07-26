@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+.uv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model artifacts (keep in git for deployment)
+# summative/linear_regression/models/
+
+# Environment
+.env
+.env.local
+
+# Flutter
+summative/FlutterApp/.dart_tool/
+summative/FlutterApp/.packages
+summative/FlutterApp/.pub-cache/
+summative/FlutterApp/.pub/
+summative/FlutterApp/build/
+summative/FlutterApp/.flutter-plugins
+summative/FlutterApp/.flutter-plugins-dependencies
+
+# Inspection script (dev only)
+inspect_dataset.py
